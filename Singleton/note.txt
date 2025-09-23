@@ -1,0 +1,12 @@
+
+Singleton Pattern :
+
+1. Only create one object in whole runtime
+2. Used for logging, driver objects, caching, thread pools, and database connections.
+
+Pythonic Ways : 
+1. Using a module 
+2. Using a class variable
+3. Using decorators -
+4. Using metaclasses
+
