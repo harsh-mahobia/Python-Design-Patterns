@@ -14,3 +14,18 @@ config1 = ConfigurationManager()
 config1.set("api_key", "123456")
 config2 = ConfigurationManager()
 print(config2.get("api_key"))
+
+
+"""
+Q. Why do we use super().__new__(cls)?
+
+The super() here is used to call the parent class’s __new__ method.
+In almost all cases, the parent is object (the root base class in Python).
+So super().__new__(cls) literally asks Python’s built-in machinery:
+👉 “Hey, please allocate memory for an object of type cls.”
+"""
+
+"""
+this __new__ is used in : 
+Singlton, Factory, Immutable Types
+"""
